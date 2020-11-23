@@ -1,0 +1,38 @@
+.footer {
+    background-color: $primary-3;
+    height: 22.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    &__nav-item {
+        text-decoration: none;
+        color: #fff;
+        margin-bottom: 2rem;
+    }
+
+    &__social-icon {
+        color: #fff;
+    }
+
+    &__logo {
+        margin-bottom: 2.5rem;
+    }
+
+    &__social-icon {
+        margin-right: 1rem;
+
+        &:last-child:not(:only-child) {
+            border: 1px solid red
+            ;
+        }
+    }
+}
